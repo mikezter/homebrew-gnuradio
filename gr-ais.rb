@@ -5,6 +5,8 @@ class GrAis < Formula
   head 'https://github.com/chgans/gr-ais.git', :revision => 'master'
 
   depends_on 'cmake' => :build
+  depends_on 'boost'
+  depends_on 'gnuradio'
 
   def install
     mkdir 'build' do
