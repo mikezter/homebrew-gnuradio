@@ -1,6 +1,6 @@
 require 'formula'
 
-class GrAis < Formula
+class GrAirModes < Formula
   homepage 'https://github.com/bistromath/gr-air-modes'
   head 'git://github.com/bistromath/gr-air-modes.git', :revision => 'master'
 
